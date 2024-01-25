@@ -10,11 +10,11 @@ from bson import ObjectId
 from flask_cors import CORS
 
 app = Flask(__name__)
-# app.config["MONGO_URI"] = "mongodb+srv://syed18638:mobileappfordev20001@cluster0.bhwqn1b.mongodb.net/?retryWrites=true&w=majority"
+# app.config["MONGO_URI"] = ""
 # mongo = PyMongo(app)
 CORS(app)
 
-mongo_uri = "mongodb+srv://syed18638:mobileappfordev20001@cluster0.bhwqn1b.mongodb.net/?retryWrites=true&w=majority"
+mongo_uri = ""
 
 
 try:
