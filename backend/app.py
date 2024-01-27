@@ -14,7 +14,7 @@ app = Flask(__name__)
 # mongo = PyMongo(app)
 CORS(app)
 
-mongo_uri = ""
+mongo_uri = "mongodb+srv://syed18638:mobileappfordev20001@cluster0.bhwqn1b.mongodb.net/?retryWrites=true&w=majority"
 
 
 try:
